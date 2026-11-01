@@ -20,6 +20,13 @@ The preview image `icons/dynamic-wallpaper-studio-preview.png` is intentionally 
 
 NASA APOD and Wikimedia Commons provide images and metadata at runtime. Their photographs can have different authors, credits, and reuse conditions, including third-party rights. Dywali does not relicense those downloaded photographs under GPL or assert a universal license for them. Review the individual provider or Commons file page and its terms before redistributing an image. NASA APOD may identify a copyright holder or credit in its returned metadata; that information is per item.
 
+The screenshots in `screenshots/` depict specific third-party works:
+
+- `screenshots/nasa-apod.png` shows **“Colors of the Moon”** by **Marcella Giulia Pace**, published by NASA APOD on 15 May 2022. [View the original APOD publication](https://apod.nasa.gov/apod/ap220515.html). NASA's general image policy does not replace the rights or terms stated for an individual work; no blanket license is claimed here.
+- `screenshots/wikimedia-commons.png` shows **“Església Santa Margalida - Santa Margalida - Mallorca - stained-glass windows”** by **H. Zell**, from [its Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Esgl%C3%A9sia_Santa_Margalida_-_Santa_Margalida_-_Mallorca_-_stained-glass_windows.jpg). The file page declares **CC BY-SA 3.0**; that license applies to this photograph, not to all Wikimedia Commons images.
+
+The screenshots are documentation captures of the application; the depicted works retain their respective authors' rights and terms.
+
 ## Runtime dependencies
 
 GTK 3, PyGObject, Pillow, XFCE/xfconf, XRandR, and systemd are system dependencies rather than vendored libraries in this package. Their respective copyright and licensing terms remain applicable.

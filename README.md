@@ -2,6 +2,26 @@
 
 Dywali is a GTK 3 desktop application for creating and applying scheduled wallpaper collections. The `public-1.0` edition includes local collections and slideshows, NASA Astronomy Picture of the Day (APOD), and Wikimedia Commons.
 
+## Screenshots
+
+### Dynamic wallpaper collections
+
+Create dynamic collections with a 24-hour timeline of fixed-image periods and transitions between images.
+
+![Dywali showing a dynamic Leafy collection and its 24-hour timeline](screenshots/leafy.png)
+
+### NASA Astronomy Picture of the Day
+
+Browse and view the astronomy image of the day, with its available credits and a link to the original publication.
+
+![Dywali showing NASA APOD's “Colors of the Moon” and its credit and source link](screenshots/nasa-apod.png)
+
+### Wikimedia Commons
+
+Browse Wikimedia Commons images and view the available author, license, and source information.
+
+![Dywali showing a Wikimedia Commons picture with author, license, and source information](screenshots/wikimedia-commons.png)
+
 The project has been tested on Debian 13 with XFCE on X11. Other distributions and Wayland sessions have not been verified.
 
 ## Features
