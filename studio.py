@@ -1446,7 +1446,20 @@ class Studio(Gtk.Window):
         # GTK only exposes its secondary license page for CUSTOM licenses;
         # predefined license types show a disclaimer/link instead.
         dialog.set_license((ROOT / 'LICENSE').read_text(encoding='utf-8'))
-        dialog.set_website_label(_("Local project · no internet required" ))
+        project_url = 'https://github.com/roger181078/Dywali'
+        dialog.set_website(project_url)
+        dialog.set_website_label(_('Project website'))
+
+        def open_project_page(_dialog, uri):
+            if uri != project_url:
+                return False
+            try:
+                Gtk.show_uri_on_window(dialog, uri, Gdk.CURRENT_TIME)
+            except GLib.Error as exc:
+                self.message(_('Could not open project page: {error}').format(error=exc), True)
+            return True
+
+        dialog.connect('activate-link', open_project_page)
         dialog.set_authors(['Dywali project'])
         icon = ROOT / 'icons' / 'dywali.svg'
         if icon.is_file():

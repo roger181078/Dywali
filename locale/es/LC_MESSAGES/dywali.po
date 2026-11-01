@@ -169,6 +169,10 @@ msgstr "No se pudieron consultar las salidas activas de la pantalla {screen}: {e
 msgid "Could not open donation page: {error}"
 msgstr "No se pudo abrir la página de donaciones: {error}"
 
+#, python-brace-format
+msgid "Could not open project page: {error}"
+msgstr "No se pudo abrir la página del proyecto: {error}"
+
 msgid "Could not open any selected images."
 msgstr "No se pudo abrir ninguna imagen seleccionada."
 
@@ -305,8 +309,8 @@ msgstr "Idioma"
 msgid "Language preference saved. Restart Dywali to apply it."
 msgstr "Idioma guardado. Reinicia Dywali para aplicar el cambio."
 
-msgid "Local project · no internet required"
-msgstr "Proyecto local · sin conexión necesaria"
+msgid "Project website"
+msgstr "Página del proyecto"
 
 msgid "Missing collection.json."
 msgstr "Falta collection.json."
