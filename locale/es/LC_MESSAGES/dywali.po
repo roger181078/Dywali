@@ -1,0 +1,800 @@
+
+# Copyright (C) 2026 roger181078
+# SPDX-License-Identifier: GPL-3.0-only
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-23 23:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+"X-Copyright: Copyright (C) 2026 roger181078\n"
+"X-SPDX-License-Identifier: GPL-3.0-only\n"
+
+msgid "A frame already exists at that time. No change was made."
+msgstr "Ya existe un fotograma a esa hora. No se ha cambiado."
+
+#, python-brace-format
+msgid "Unknown online provider: {name}"
+msgstr "Proveedor en línea desconocido: {name}"
+
+#, python-brace-format
+msgid "The {name} provider is not included in this Dywali edition."
+msgstr "El proveedor {name} no está incluido en esta edición de Dywali."
+
+#, python-brace-format
+msgid "{provider} is not included in this Dywali edition. Your collection and active selection were preserved; no image was applied."
+msgstr "{provider} no está incluido en esta edición de Dywali. Se conservaron la colección y la selección activa; no se aplicó ninguna imagen."
+
+#, python-brace-format
+msgid "{provider} (unavailable in this edition)"
+msgstr "{provider} (no disponible en esta edición)"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Dynamic Wallpapers for Linux"
+msgstr "Fondos dinámicos para Linux"
+
+msgid "Add images"
+msgstr "Añadir imágenes"
+
+#, python-brace-format
+msgid ""
+"Added {count} images in natural order. You can adjust their times; automatic save "
+"is enabled."
+msgstr ""
+"Se añadieron {count} imágenes en orden natural. Puedes ajustar sus horarios; el "
+"guardado automático está activo."
+
+#, python-brace-format
+msgid "Added {count} images; skipped {invalid} invalid files: {files}"
+msgstr "Se añadieron {count} imágenes; se omitieron {invalid} archivos no válidos: {files}"
+
+msgid "All images must have the same resolution."
+msgstr "Todas las imágenes deben tener la misma resolución."
+
+msgid "An image is missing from the ZIP."
+msgstr "Falta una imagen en el ZIP."
+
+#, python-brace-format
+msgid "Wallpaper applied: {filename}"
+msgstr "Fondo aplicado: {filename}"
+
+msgid "Apply now"
+msgstr "Aplicar ahora"
+
+msgid "At least one collection must remain."
+msgstr "Debe quedar al menos una colección."
+
+msgid "At least two images are required."
+msgstr "Se necesitan al menos dos imágenes."
+
+msgid "Automatic updates disabled."
+msgstr "Actualización automática de Studio desactivada."
+
+#, python-brace-format
+msgid "Automatic updates enabled every {interval} minutes."
+msgstr "Actualización automática activada cada {interval} minutos."
+
+msgid "Automatic updates:"
+msgstr "Actualización automática:"
+
+msgid "Behavior until next image"
+msgstr "Comportamiento hasta la siguiente imagen"
+
+msgid "Change mode"
+msgstr "Cambiar modo"
+
+msgid "Change time"
+msgstr "Cambiar horario"
+
+msgid "Changes saved automatically."
+msgstr "Cambios guardados automáticamente."
+
+msgid "Choose the interface language. Restart Dywali to apply changes."
+msgstr "Elige el idioma de la interfaz. Reinicia Dywali para aplicar el cambio."
+
+msgid "Click a segment to select its image; drag boundaries to adjust times."
+msgstr ""
+"Pulsa un tramo para seleccionar su imagen; arrastra los límites para cambiar "
+"horarios."
+
+#, python-brace-format
+msgid "Collection duplicated: {name}"
+msgstr "Colección duplicada: {name}"
+
+#, python-brace-format
+msgid "Collection exported: {path}"
+msgstr "Colección exportada: {path}"
+
+#, python-brace-format
+msgid "Collection imported: {name} ({count} frames)."
+msgstr "Colección importada: {name} ({count} fotogramas)."
+
+msgid "Collection must have between 2 and 500 images."
+msgstr "La colección debe contener entre 2 y 500 imágenes."
+
+msgid "Collection name"
+msgstr "Nombre de la colección"
+
+#, python-brace-format
+msgid "Collection renamed: {name}"
+msgstr "Colección renombrada: {name}"
+
+msgid "Collection:"
+msgstr "Colección:"
+
+msgid "Community Linux desktop customization project"
+msgstr "Proyecto comunitario de personalización de escritorio Linux"
+
+msgid "☕ Buy Me a Coffee"
+msgstr "☕ Invítame a un café"
+
+msgid "Configuration is too large."
+msgstr "Configuración excesivamente grande."
+
+msgid "Could not create thumbnail."
+msgstr "No se pudo generar la miniatura."
+
+#, python-brace-format
+msgid "Could not export: {error}"
+msgstr "No se pudo exportar: {error}"
+
+#, python-brace-format
+msgid "Could not import: {error}"
+msgstr "No se pudo importar: {error}"
+
+#, python-brace-format
+msgid "Could not move image: {error}"
+msgstr "No se pudo mover la imagen: {error}"
+
+#, python-brace-format
+msgid "Could not query XFCE wallpaper properties: {error}"
+msgstr "No se pudieron consultar las propiedades de fondos de XFCE: {error}"
+
+#, python-brace-format
+msgid "Could not query active outputs on screen {screen}: {error}"
+msgstr "No se pudieron consultar las salidas activas de la pantalla {screen}: {error}"
+
+#, python-brace-format
+msgid "Could not open donation page: {error}"
+msgstr "No se pudo abrir la página de donaciones: {error}"
+
+msgid "Could not open any selected images."
+msgstr "No se pudo abrir ninguna imagen seleccionada."
+
+#, python-brace-format
+msgid "Could not open selected image: {error}"
+msgstr "No se pudo abrir la imagen seleccionada: {error}"
+
+msgid ""
+"Create and manage timed wallpaper collections with fixed images and smooth "
+"transitions for XFCE."
+msgstr ""
+"Crea y administra colecciones de fondos dinámicos con horarios, imágenes fijas y "
+"transiciones suaves para XFCE."
+
+msgid "Delete collection"
+msgstr "Eliminar colección"
+
+msgid "Drag a row to reorder images. Times and modes stay assigned to their slots."
+msgstr ""
+"Arrastra una fila para cambiar el orden de imágenes. Las horas y modos de cada "
+"tramo permanecen fijos."
+
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgid "Duplicate collection"
+msgstr "Duplicar colección"
+
+msgid "Duplicate times."
+msgstr "Hay horarios duplicados."
+
+msgid "Duration"
+msgstr "Duración"
+
+msgid "Enter a new, nonempty name."
+msgstr "Indica un nombre nuevo y no vacío."
+
+msgid "Every"
+msgstr "Cada"
+
+msgid "Export collection"
+msgstr "Exportar colección"
+
+msgid "File"
+msgstr "Archivo"
+
+msgid "Fix the collection before enabling updates."
+msgstr "Corrige la colección antes de activar."
+
+msgid "Fixed"
+msgstr "Fija"
+
+msgid "Frames · each mode applies from its time until the next:"
+msgstr "Fotogramas · el modo se aplica desde cada hora hasta la siguiente:"
+
+#, python-brace-format
+msgid "HEIC extraction error: {error}"
+msgstr "Error extrayendo HEIC: {error}"
+
+msgid "HEIC files"
+msgstr "Archivos HEIC"
+
+#, python-brace-format
+msgid "Image not found: {path}"
+msgstr "No existe la imagen: {path}"
+
+msgid "Image replaced. Time and mode preserved; automatic save pending."
+msgstr "Imagen sustituida. Hora y modo conservados; guardado automático pendiente."
+
+msgid "Images reordered; times and modes unchanged."
+msgstr "Imágenes reordenadas; horarios y modos intactos."
+
+msgid "Import HEIC"
+msgstr "Importar HEIC"
+
+msgid "Import collection"
+msgstr "Importar colección"
+
+msgid "Import collection ZIP"
+msgstr "Importar colección ZIP"
+
+#, python-brace-format
+msgid "Imported {count} images. Check their times; changes are saved automatically."
+msgstr ""
+"Se importaron {count} imágenes. Revisa los horarios; los cambios se guardan "
+"automáticamente."
+
+msgid "Incompatible collection format."
+msgstr "Formato de colección incompatible."
+
+msgid "Install libheif-examples: sudo apt install libheif-examples"
+msgstr "Instala libheif-examples: sudo apt install libheif-examples"
+
+#, python-brace-format
+msgid "Installed engine not found: {path}"
+msgstr "No se encuentra el motor instalado: {path}"
+
+msgid "Invalid collection name."
+msgstr "Nombre de colección inválido."
+
+msgid "Invalid drop position"
+msgstr "Posición de arrastre no válida"
+
+msgid "Invalid frame."
+msgstr "Fotograma incorrecto."
+
+msgid "Invalid internal image path."
+msgstr "Ruta interna de imagen inválida."
+
+msgid "Invalid interval mode."
+msgstr "Modo de intervalo no válido."
+
+msgid "Invalid time"
+msgstr "Hora incorrecta"
+
+msgid "Invalid time (HH:MM format)."
+msgstr "Horario incorrecto (formato HH:MM)."
+
+msgid "Invalid time."
+msgstr "Horario inválido."
+
+msgid "Invalid time; use HH:MM."
+msgstr "Formato de hora inválido; usa HH:MM."
+
+msgid "JPEG and PNG images"
+msgstr "Imagenes JPEG y PNG"
+
+msgid "Keep image fixed"
+msgstr "Mantener imagen fija"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Language preference saved. Restart Dywali to apply it."
+msgstr "Idioma guardado. Reinicia Dywali para aplicar el cambio."
+
+msgid "Local project · no internet required"
+msgstr "Proyecto local · sin conexión necesaria"
+
+msgid "Missing collection.json."
+msgstr "Falta collection.json."
+
+msgid "New collection"
+msgstr "Nueva colección"
+
+msgid "No configuration found. Open the graphical application first."
+msgstr "No hay configuración. Ejecuta primero la interfaz gráfica."
+
+msgid "No images were extracted from the file."
+msgstr "No se han extraído imágenes del archivo."
+
+msgid "No more unique frame times are available."
+msgstr "No caben más fotogramas con horas diferentes."
+
+msgid "Preview"
+msgstr "Vista"
+
+#, python-brace-format
+msgid "Preview unavailable: {error}"
+msgstr "Vista previa pendiente: {error}"
+
+msgid "Preview:"
+msgstr "Vista previa:"
+
+msgid "Remove image"
+msgstr "Quitar imagen"
+
+msgid "Rename"
+msgstr "Renombrar"
+
+msgid "Rename collection"
+msgstr "Renombrar colección"
+
+msgid "Replace image"
+msgstr "Cambiar imagen"
+
+#, python-brace-format
+msgid "Saved: {name}. The current schedule was not modified."
+msgstr "Guardado: {name}. La programación actual no se ha modificado."
+
+msgid "Select an image from the list first."
+msgstr "Selecciona primero una imagen de la lista."
+
+msgid "Smooth transition"
+msgstr "Transición suave"
+
+#, python-brace-format
+msgid "Some monitors could not be updated: {errors}"
+msgstr "Algunos monitores no se actualizaron: {errors}"
+
+#, python-brace-format
+msgid "No existing XFCE wallpaper property matches output {monitor} on screen {screen} workspace0. Open XFCE Desktop Settings > Background, select this display, and apply a wallpaper once; then retry Dywali."
+msgstr "No existe una propiedad de fondo de XFCE para la salida {monitor} en la pantalla {screen}, workspace0. Abre Configuración del escritorio de XFCE > Fondo, selecciona esta pantalla y aplica un fondo una vez; después, vuelve a probar Dywali."
+
+#, python-brace-format
+msgid "Configured output {monitor} is not active or has no matching XFCE property."
+msgstr "La salida configurada {monitor} no está activa o no tiene una propiedad XFCE coincidente."
+
+msgid "No active XFCE workspace0 wallpaper targets were found."
+msgstr "No se encontraron destinos de fondo activos de XFCE en workspace0."
+
+#, python-brace-format
+msgid "Unsupported monitor selection mode: {mode}"
+msgstr "Modo de selección de monitores no compatible: {mode}"
+
+msgid "The configured monitor list is invalid."
+msgstr "La lista de monitores configurada no es válida."
+
+msgid "Display selection configuration is invalid."
+msgstr "La configuración de selección de pantallas no es válida."
+
+msgid "Display selection contains duplicate outputs."
+msgstr "La selección de pantallas contiene salidas duplicadas."
+
+msgid "Custom display selection must include at least one output."
+msgstr "La selección personalizada debe incluir al menos una pantalla."
+
+#, python-brace-format
+msgid "Unsupported display selection mode: {mode}"
+msgstr "Modo de selección de pantallas no compatible: {mode}"
+
+#, python-brace-format
+msgid "Selected output {monitor} on screen {screen} is not active; reconnect it or change the display selection."
+msgstr "La salida seleccionada {monitor} de la pantalla {screen} no está activa; vuelve a conectarla o cambia la selección de pantallas."
+
+msgid "Screens…"
+msgstr "Pantallas…"
+
+msgid "Display selection"
+msgstr "Selección de pantallas"
+
+msgid "Choose which active displays Dywali should update."
+msgstr "Elige qué pantallas activas debe actualizar Dywali."
+
+msgid "All displays (automatic)"
+msgstr "Todas las pantallas (automático)"
+
+msgid "Only selected displays"
+msgstr "Solo las pantallas seleccionadas"
+
+#, python-brace-format
+msgid "Screen {screen} · {name} · {resolution}"
+msgstr "Pantalla {screen} · {name} · {resolution}"
+
+#, python-brace-format
+msgid "Screen {screen} · {name}"
+msgstr "Pantalla {screen} · {name}"
+
+msgid "Unavailable: initialize this display in XFCE Desktop Settings > Background."
+msgstr "No disponible: inicializa esta pantalla en Configuración del escritorio de XFCE > Fondo."
+
+msgid "Not currently connected. Saved selection retained."
+msgstr "No está conectada. Se conserva la selección guardada."
+
+#, python-brace-format
+msgid "Legacy selected outputs not currently detected: {names}"
+msgstr "No se detectan estas salidas de la selección heredada: {names}"
+
+msgid "No active displays were detected."
+msgstr "No se detectaron pantallas activas."
+
+msgid "Displays without an XFCE wallpaper property must first be initialized from Desktop Settings > Background."
+msgstr "Las pantallas sin propiedad de fondo XFCE deben inicializarse primero en Configuración del escritorio > Fondo."
+
+msgid "Display selection saved. It will be used on the next wallpaper update."
+msgstr "Selección de pantallas guardada. Se aplicará en la próxima actualización del fondo."
+
+#, python-brace-format
+msgid "Wallpaper applied to {successes}; failed on {failures}."
+msgstr "Fondo aplicado en {successes}; falló en {failures}."
+
+#, python-brace-format
+msgid "Wallpaper could not be applied: {errors}"
+msgstr "No se pudo aplicar el fondo: {errors}"
+
+msgid "The name must be new and nonempty."
+msgstr "El nombre debe ser nuevo y no estar vacío."
+
+msgid ""
+"The selected mode applies from this image’s time until the next.\n"
+"Transition: gradually blends. Fixed: keeps this image unchanged."
+msgstr ""
+"El modo elegido se aplica desde la hora de esta imagen hasta la siguiente.\n"
+"Transición: mezcla gradual. Fija: conserva esta imagen sin cambios."
+
+msgid "Time"
+msgstr "Hora"
+
+#, python-brace-format
+msgid "Time changed to {time}. Automatically saved."
+msgstr "Horario cambiado a {time}. Guardado automático."
+
+msgid "Timeline · 24 hours"
+msgstr "Línea de tiempo · 24 horas"
+
+msgid "Transition"
+msgstr "Transición"
+
+msgid "Two images cannot have the same time."
+msgstr "Dos imágenes no pueden tener exactamente la misma hora."
+
+msgid "Unknown mode."
+msgstr "Modo desconocido."
+
+msgid "Unsaved: "
+msgstr "Sin guardar: "
+
+msgid "Unsupported update interval."
+msgstr "Intervalo no permitido."
+
+msgid "Until next"
+msgstr "Hasta la siguiente"
+
+msgid "ZIP collections (*.zip)"
+msgstr "Colecciones ZIP (*.zip)"
+
+msgid "ZIP contains oversized images."
+msgstr "El ZIP contiene imágenes demasiado grandes."
+
+msgid "systemd --user is not available in this session."
+msgstr "systemd --user no está disponible en esta sesión."
+
+msgid "systemd --user is not available."
+msgstr "systemd --user no está disponible."
+
+msgid "xfconf-query is not installed."
+msgstr "xfconf-query no está instalado."
+
+msgid "Collection mode:"
+msgstr "Modo de colección:"
+
+msgid "Dynamic (24-hour timeline)"
+msgstr "Dinámico (línea de tiempo de 24 horas)"
+
+msgid "Random slideshow"
+msgstr "Presentación aleatoria"
+
+msgid "Change every"
+msgstr "Cambiar cada"
+
+msgid "Next image"
+msgstr "Siguiente imagen"
+
+msgid "Images in slideshow:"
+msgstr "Imágenes de la presentación:"
+
+msgid "No images in this collection."
+msgstr "No hay imágenes en esta colección."
+
+#, python-brace-format
+msgid "Automatic updates enabled. Slideshow changes every {interval} minutes."
+msgstr ""
+"Actualización automática activada. La presentación cambia de imagen cada "
+"{interval} minutos."
+
+msgid "Paused"
+msgstr "En pausa"
+
+msgid "Next change pending"
+msgstr "Próximo cambio pendiente"
+
+#, python-brace-format
+msgid "Next change in {time}"
+msgstr "Próximo cambio en {time}"
+
+msgid "Waiting for first update"
+msgstr "Esperando primera actualización"
+
+msgid "Microsoft Spotlight (experimental)"
+msgstr "Microsoft Spotlight (experimental)"
+
+msgid "Check every"
+msgstr "Comprobar cada"
+
+msgid "Check now"
+msgstr "Comprobar ahora"
+
+msgid "Checking Spotlight…"
+msgstr "Consultando Spotlight…"
+
+msgid "Spotlight wallpaper applied."
+msgstr "Fondo de Spotlight aplicado."
+
+msgid "Current Spotlight image: "
+msgstr "Imagen actual de Spotlight: "
+
+msgid "No image cached. Click Check now."
+msgstr "No hay imágenes en caché. Pulsa Comprobar ahora."
+
+#, python-brace-format
+msgid "Spotlight enabled. Checking for new images every {hours} hours."
+msgstr "Spotlight activado. Se buscarán nuevas imágenes cada {hours} horas."
+
+msgid "Save image"
+msgstr "Guardar imagen"
+
+msgid "Save Spotlight image"
+msgstr "Guardar imagen de Spotlight"
+
+msgid "No Spotlight image available to save."
+msgstr "No hay ninguna imagen de Spotlight disponible para guardar."
+
+#, python-brace-format
+msgid "Spotlight image saved to {path}"
+msgstr "Imagen de Spotlight guardada en {path}"
+
+#, python-brace-format
+msgid "Spotlight enabled. Checking for new images every {interval}."
+msgstr "Spotlight activado. Se buscarán nuevas imágenes cada {interval}."
+
+#, python-brace-format
+msgid "{minutes} minutes"
+msgstr "{minutes} minutos"
+
+#, python-brace-format
+msgid "{hours} hours"
+msgstr "{hours} horas"
+
+msgid "Wikimedia Commons (experimental)"
+msgstr "Wikimedia Commons (experimental)"
+
+msgid "No Wikimedia image available to save."
+msgstr "No hay ninguna imagen de Wikimedia para guardar."
+
+msgid "Wikimedia image"
+msgstr "Imagen de Wikimedia"
+
+#, python-brace-format
+msgid "{name} saved to {path}"
+msgstr "{name} guardada en {path}"
+
+msgid "Checking Wikimedia Commons…"
+msgstr "Comprobando Wikimedia Commons…"
+
+msgid "Wikimedia wallpaper applied."
+msgstr "Fondo de Wikimedia aplicado."
+
+msgid "Current Wikimedia image: "
+msgstr "Imagen actual de Wikimedia: "
+
+#, python-brace-format
+msgid "Wikimedia enabled. Checking for a new image every {interval}."
+msgstr "Wikimedia activado. Se buscará una imagen nueva cada {interval}."
+
+msgid "Source"
+msgstr "Fuente"
+
+msgid "Picture of the day"
+msgstr "Imagen del día"
+
+msgid "Random featured image"
+msgstr "Imagen destacada aleatoria"
+
+msgid "Current Wikimedia picture of the day: "
+msgstr "Imagen del día actual de Wikimedia: "
+
+msgid "Current Wikimedia featured image: "
+msgstr "Imagen destacada actual de Wikimedia: "
+
+msgid "Not available"
+msgstr "No disponible"
+
+#, python-brace-format
+msgid "Author / credit: {value}"
+msgstr "Autor / crédito: {value}"
+
+#, python-brace-format
+msgid "Credit: {value}"
+msgstr "Crédito: {value}"
+
+#, python-brace-format
+msgid "Description: {value}"
+msgstr "Descripción: {value}"
+
+#, python-brace-format
+msgid "Declared license: {value}"
+msgstr "Licencia declarada: {value}"
+
+msgid "Open original file page on Wikimedia Commons"
+msgstr "Abrir ficha original en Wikimedia Commons"
+
+msgid "No picture cached for this Wikimedia source. Click Check now."
+msgstr ""
+"No hay imagen del día en caché para esta fuente de Wikimedia. Pulsa Comprobar "
+"ahora."
+
+msgid "No featured image cached for this Wikimedia source. Click Check now."
+msgstr ""
+"No hay imagen destacada en caché para esta fuente de Wikimedia. Pulsa Comprobar "
+"ahora."
+
+msgid "NASA APOD (experimental)"
+msgstr "NASA APOD (experimental)"
+
+msgid "No NASA APOD image available to save."
+msgstr "No hay ninguna imagen de NASA APOD disponible para guardar."
+
+msgid "NASA APOD image"
+msgstr "Imagen de NASA APOD"
+
+msgid "Open original publication on NASA APOD"
+msgstr "Abrir publicación original en NASA APOD"
+
+#, python-brace-format
+msgid "NASA APOD — {date}: {title}"
+msgstr "NASA APOD — {date}: {title}"
+
+#, python-brace-format
+msgid "Copyright holder: {value}"
+msgstr "Titular de derechos: {value}"
+
+#, python-brace-format
+msgid "{name} and provenance saved to {path}"
+msgstr "Se guardaron {name} y su ficha de procedencia en {path}"
+
+msgid "Cannot save NASA APOD provenance: a JSON sidecar already exists."
+msgstr "No se puede guardar la procedencia de NASA APOD: ya existe un JSON auxiliar."
+
+#, python-brace-format
+msgid "Could not save NASA APOD image and provenance: {error}"
+msgstr "No se pudieron guardar la imagen y la procedencia de NASA APOD: {error}"
+
+msgid "Checking NASA APOD…"
+msgstr "Comprobando NASA APOD…"
+
+msgid "NASA APOD wallpaper applied."
+msgstr "Fondo de NASA APOD aplicado."
+
+#, python-brace-format
+msgid "Current NASA APOD: {date} — {title}"
+msgstr "NASA APOD actual: {date} — {title}"
+
+msgid "Untitled"
+msgstr "Sin título"
+
+msgid "No APOD image cached. Click Check now."
+msgstr "No hay ninguna imagen APOD en caché. Pulsa Comprobar ahora."
+
+#, python-brace-format
+msgid "NASA APOD enabled. Checking for a new image every {interval}."
+msgstr "NASA APOD activado. Comprobando si hay una nueva imagen cada {interval}."
+
+msgid "Today's APOD is a video. Showing the latest recent image instead."
+msgstr ""
+"El APOD de hoy es un vídeo. Se muestra en su lugar la imagen más reciente "
+"disponible."
+
+msgid "Read explanation"
+msgstr "Leer explicación"
+
+msgid "NASA APOD explanation"
+msgstr "Explicación de NASA APOD"
+
+msgid "No APOD explanation available."
+msgstr "No hay ninguna explicación APOD disponible."
+
+msgid "Bing Wallpaper (experimental)"
+msgstr "Bing Wallpaper (experimental)"
+
+msgid "Image of the day"
+msgstr "Imagen del día"
+
+msgid "Recent images (last 8 days)"
+msgstr "Imágenes recientes (últimos 8 días)"
+
+msgid "Sequential"
+msgstr "Secuencial"
+
+msgid "Random (no repeats)"
+msgstr "Aleatorio (sin repetir)"
+
+msgid "Automatic"
+msgstr "Automático"
+
+msgid "Order"
+msgstr "Orden"
+
+#, python-brace-format
+msgid "Image {index} of {total}"
+msgstr "Imagen {index} de {total}"
+
+msgid "Manual change"
+msgstr "Cambio manual"
+
+msgid "No Bing image available to save."
+msgstr "No hay ninguna imagen de Bing disponible para guardar."
+
+msgid "Bing image"
+msgstr "Imagen de Bing"
+
+msgid "Checking Bing Wallpaper…"
+msgstr "Comprobando Bing Wallpaper…"
+
+msgid "Loading next Bing image…"
+msgstr "Cargando la siguiente imagen de Bing…"
+
+msgid "Bing wallpaper applied."
+msgstr "Fondo de Bing aplicado."
+
+#, python-brace-format
+msgid "Current Bing recent image {current}/{total}: {date} — {title}"
+msgstr "Imagen reciente de Bing {current}/{total}: {date} — {title}"
+
+#, python-brace-format
+msgid "Current Bing image of the day: {date} — {title}"
+msgstr "Imagen del día de Bing: {date} — {title}"
+
+msgid "No Bing image cached. Click Check now."
+msgstr "No hay imágenes de Bing en caché. Pulsa Comprobar ahora."
+
+#, python-brace-format
+msgid "Bing Wallpaper enabled. Checking for a new image every {interval}."
+msgstr "Bing activado. Se comprobarán imágenes cada {interval}."
+
+
+msgid "Automatic updates paused"
+msgstr "Actualización automática en pausa"
+
+msgid "Waiting for first Spotlight check"
+msgstr "Esperando primera comprobación de Spotlight"
+
+msgid "Next Spotlight check in {time}"
+msgstr "Próxima comprobación de Spotlight en {time}"
+
+msgid "Spotlight check pending"
+msgstr "Comprobación de Spotlight pendiente"
+
+msgid "Spotlight checks for new images; a check does not always change the wallpaper."
+msgstr "Spotlight busca imágenes nuevas; una comprobación no siempre cambia el fondo."
