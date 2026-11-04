@@ -53,7 +53,7 @@ Obtain and extract the public `public-1.0` package, then run its installer from 
 
 ```sh
 cd /path/to/extracted/dywali-public-1.0
-sh ./instalar.sh
+sh ./install.sh
 ```
 
 Launch it with:
@@ -93,7 +93,7 @@ Keep the extracted package directory (or a matching copy of its uninstaller) so 
 
 ```sh
 cd /path/to/extracted/dywali-public-1.0
-sh ./desinstalar.sh
+sh ./uninstall.sh
 ```
 
 The uninstaller removes recognized Dywali application files and its user timer. By default it **does not delete** collections, configuration, provider caches, generated wallpaper files, or state. Review and remove those user data directories yourself only if you explicitly want to discard them. Files the uninstaller cannot identify as Dywali-owned are left in place.
