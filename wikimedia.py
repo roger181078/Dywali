@@ -32,7 +32,7 @@ STATE = Path.home() / '.local/state/dywali/wikimedia.json'
 FREQUENCIES = (60, 360, 720, 1440)
 # Configure a genuine project contact before public distribution.
 CONTACT = os.environ.get('DYWALI_CONTACT', '').strip()
-USER_AGENT = 'Dywali/1.0.0 (personal XFCE wallpaper client' + ('; ' + CONTACT if CONTACT else '') + ')'
+USER_AGENT = 'Dywali/1.0.1 (personal XFCE wallpaper client' + ('; ' + CONTACT if CONTACT else '') + ')'
 MANUAL_COOLDOWN = 30  # seconds; local UX throttle, not a Wikimedia quota
 RATE_LIMIT_FALLBACK = 15 * 60
 LOCK = STATE.with_suffix('.lock')

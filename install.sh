@@ -36,8 +36,8 @@ msg() {
     es:preserve_unknown) printf "Colección activa '%s' no verificada; temporizador queda detenido.\n" "$1" >&2 ;;
     en:legacy_service) printf 'Preserving unrecognized service unit: %s\n' "$1" >&2 ;;
     es:legacy_service) printf 'Se conserva unidad de servicio no reconocida: %s\n' "$1" >&2 ;;
-    en:installed) printf '\nDywali 1.0.0 (%s) installed. Launch with: %s/.local/bin/dywali\n' "$1" "$2" ;;
-    es:installed) printf '\nDywali 1.0.0 (%s) instalado. Abrir con: %s/.local/bin/dywali\n' "$1" "$2" ;;
+    en:installed) printf '\nDywali 1.0.1 (%s) installed. Launch with: %s/.local/bin/dywali\n' "$1" "$2" ;;
+    es:installed) printf '\nDywali 1.0.1 (%s) instalado. Abrir con: %s/.local/bin/dywali\n' "$1" "$2" ;;
     en:preserved) printf '%s\n' 'Existing collections, images, configuration, and cache were preserved.' ;;
     es:preserved) printf '%s\n' 'Colecciones, imágenes, configuración y caché existentes se han conservado.' ;;
   esac

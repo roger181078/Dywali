@@ -1440,7 +1440,7 @@ class Studio(Gtk.Window):
     def show_about(self, *args):
         dialog = Gtk.AboutDialog(transient_for=self, modal=True)
         dialog.set_program_name('Dywali')
-        dialog.set_version('1.0.0')
+        dialog.set_version('1.0.1')
         dialog.set_comments(_('Dynamic Wallpapers for Linux'))
         dialog.set_copyright('Copyright (C) 2026 roger181078')
         # GTK only exposes its secondary license page for CUSTOM licenses;

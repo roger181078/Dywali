@@ -47,12 +47,25 @@ sudo apt install python3 python3-gi gir1.2-gtk-3.0 python3-pil xfce4 xfconf x11-
 
 The package manager may report that some XFCE components are already installed. Dywali itself is installed as the logged-in user; do not run its installer with `sudo`.
 
-## Install
+## Install / Instalación
 
-Obtain and extract the public `public-1.0` package, then run its installer from the extracted directory:
+### English
+
+Download and extract `Dywali-1.0.1-public.zip`. This is an installable source-code package, not a DEB package or a standalone executable. Run the installer from the extracted directory:
 
 ```sh
-cd /path/to/extracted/dywali-public-1.0
+unzip Dywali-1.0.1-public.zip
+cd Dywali-1.0.1
+sh ./install.sh
+```
+
+### Español
+
+Descarga y extrae `Dywali-1.0.1-public.zip`. Es un paquete de código fuente instalable, no un paquete DEB ni un ejecutable autónomo. Ejecuta el instalador desde el directorio extraído:
+
+```sh
+unzip Dywali-1.0.1-public.zip
+cd Dywali-1.0.1
 sh ./install.sh
 ```
 
@@ -85,18 +98,31 @@ NASA APOD uses `DEMO_KEY` by default. You may set `DYWALI_NASA_API_KEY` in the e
 
 Configuration is stored under `~/.config/dywali/`, provider state under `~/.local/state/dywali/`, and cached/generated images under `~/.cache/dywali/`. Collection images remain at their chosen paths.
 
-## Update and uninstall
+## Update and uninstall / Actualización y desinstalación
+
+### English
 
 To update, use the installer supplied with the newer public package. It preserves existing collections, configuration, images, and state unless a preflight check refuses an unsafe or conflicting target.
 
-Keep the extracted package directory (or a matching copy of its uninstaller) so you can uninstall Dywali later. The uninstaller is not copied into the installed application directory. Run it from the extracted package directory:
+Keep the extracted `Dywali-1.0.1/` directory so you can run the uninstaller later. The uninstaller is not copied into the installed application directory. From the extracted directory, run:
 
 ```sh
-cd /path/to/extracted/dywali-public-1.0
 sh ./uninstall.sh
 ```
 
 The uninstaller removes recognized Dywali application files and its user timer. By default it **does not delete** collections, configuration, provider caches, generated wallpaper files, or state. Review and remove those user data directories yourself only if you explicitly want to discard them. Files the uninstaller cannot identify as Dywali-owned are left in place.
+
+### Español
+
+Para actualizar, usa el instalador incluido en el nuevo paquete público. Conserva las colecciones, la configuración, las imágenes y el estado existentes, salvo que una comprobación previa rechace un destino inseguro o en conflicto.
+
+Conserva el directorio extraído `Dywali-1.0.1/` para poder ejecutar después el desinstalador. El desinstalador no se copia al directorio de la aplicación instalada. Desde el directorio extraído, ejecuta:
+
+```sh
+sh ./uninstall.sh
+```
+
+El desinstalador elimina los archivos reconocidos de Dywali y su temporizador de usuario. De forma predeterminada **no elimina** colecciones, configuración, cachés de proveedores, fondos generados ni estado. Si quieres descartar esos datos, revísalos y elimínalos por separado. Los archivos que no puede identificar como propios de Dywali se conservan.
 
 ## Limitations
 
